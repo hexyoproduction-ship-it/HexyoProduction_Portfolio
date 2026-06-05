@@ -1,0 +1,53 @@
+/* ============================================
+   DESIGN SYSTEM - CSS VARIABLES
+   ============================================ */
+
+:root {
+  /* --- COLOR SYSTEM --- */
+  --primary: #000000;           /* Deep Black - Backgrounds/Text */
+  --secondary: #FFFFFF;         /* Clean White - Text/Cards */
+  --accent: #FFFF00;            /* Neon Yellow - Hovers, Highlights, CTAs */
+  
+  /* --- TYPOGRAPHY SYSTEM --- */
+  --font-headline: 'Bebas Neue', sans-serif;
+  --font-body: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  
+  --size-headline: 4rem;        /* 64px */
+  --size-subheadline: 2rem;     /* 32px */
+  --size-text: 1rem;            /* 16px */
+  --size-small: 0.875rem;       /* 14px */
+  
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extra-bold: 800;
+  --weight-black: 900;
+
+  /* --- SPACING SYSTEM --- */
+  --space-small: 15px;
+  --space-medium: 25px;
+  --space-large: 35px;
+
+  /* --- BORDER RADIUS --- */
+  --radius-small: 8px;
+  --radius-medium: 16px;
+  --radius-large: 24px;
+
+  /* --- SHADOWS --- */
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-medium: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --shadow-strong: 0 15px 50px rgba(0, 0, 0, 0.18);
+
+  /* --- TRANSITIONS --- */
+  --transition-fast: 0.2s ease;
+  --transition-smooth: 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+  --transition-slow: 0.6s ease-in-out;
+
+  /* --- Z-INDEX SCALE --- */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 500;
+  --z-modal: 1000;
+  --z-tooltip: 1100;
+}
